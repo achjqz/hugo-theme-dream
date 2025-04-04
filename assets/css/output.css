@@ -1075,7 +1075,7 @@
   }
   .prose {
     color: var(--tw-prose-body);
-    max-width: 65ch;
+    max-width: 80ch;
     :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
       margin-top: 1.25em;
       margin-bottom: 1.25em;
@@ -2115,9 +2115,9 @@
       padding-inline: calc(var(--spacing) * 0);
     }
   }
-  .lg\:col-span-2 {
+  .lg\:col-span-4 {
     @media (width >= 64rem) {
-      grid-column: span 2 / span 2;
+      grid-column: span 4 / span 4;
     }
   }
   .lg\:mt-8 {
@@ -2155,9 +2155,9 @@
       flex-basis: 300px;
     }
   }
-  .lg\:grid-cols-4 {
+  .lg\:grid-cols-6 {
     @media (width >= 64rem) {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(6, minmax(0, 1fr));
     }
   }
   .lg\:flex-col {

@@ -8,6 +8,7 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
+            maxWidth: '80ch',
             blockquote: {
               color: 'var(--tw-prose-body)',
               fontWeight: 'normal',
